@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Kripto</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="API_KEY">03DAEB88-0BA1-4442-8C52-0812DBD6F601</string>
+    <string name="action_settings">Settings</string>
+</resources>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/background"
+        android:scaleType="centerCrop"
+        />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="11dp"
+        android:src="@drawable/bitcoin" />
+
+    <TextView
+        android:id="@+id/loginText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loginButtons"
+        android:layout_centerHorizontal="true"
+        android:text="Login With"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/white" />
+
+    <LinearLayout
+        android:id="@+id/loginButtons"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <!--<Button
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:background="@color/facebook_blue"
+            android:padding="5dp"
+            android:text="Facebook"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />-->
+<!--
+
+        <Button
+            android:layout_width="20dp"
+            android:background="#00aaaaaa"
+            android:layout_height="wrap_content" />
+-->
+
+
+        <com.google.android.gms.common.SignInButton
+            android:id="@+id/googleSignInButton"
+            android:layout_width="150dp"
+            android:layout_height="match_parent">
+
+        </com.google.android.gms.common.SignInButton>
+
+        <!--
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:background="@color/google_orange"
+            android:padding="5dp"
+            android:text="Google"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+-->
+
+    </LinearLayout>
+
+</RelativeLayout>

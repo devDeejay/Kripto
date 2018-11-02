@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Kripto Options">
+        <menu>
+            <item
+                android:id="@+id/change_currency"
+                android:icon="@drawable/exchange"
+                android:title="Change Currency" />
+            <item
+                android:id="@+id/cryptocompare"
+                android:icon="@drawable/crypto"
+                android:title="Check Out Cryptocompare" />
+        </menu>
+    </item>
+
+    <item android:title="Support The Developers">
+        <menu>
+
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/share_app"
+                android:title="Share Krypto With Others" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rate_us"
+                android:title="Rate Us On PlayStore" />
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/feedback"
+                android:title="Share Your Feedback" />
+
+            <item
+                android:id="@+id/more_apps"
+                android:icon="@drawable/playstore"
+                android:title="More Apps By DevDelhi" />
+
+        </menu>
+    </item>
+
+</menu>

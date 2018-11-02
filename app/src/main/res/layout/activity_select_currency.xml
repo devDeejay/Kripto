@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".SelectCurrency">
+
+    <Button
+        android:id="@+id/changeCurrencyButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_gradient"
+        android:padding="10dp"
+        android:text="Change Currency"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/headingTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Change Currency"
+        android:textColor="@color/white"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/from"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/headingTV"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="From Currency "
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/selectCC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/from"
+        android:background="@color/white"
+        android:hint="Example : ETH / BTC / USD / EUR"
+        android:padding="10dp"
+        android:tooltipText="Input Example 'BTC'" />
+
+    <TextView
+        android:id="@+id/to"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectCC"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="To Currency "
+        android:textColor="@color/white" />
+
+
+    <EditText
+        android:id="@+id/selectC"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/to"
+        android:background="@color/white"
+        android:hint="Example : USD / INR / BTC / LTC"
+        android:padding="10dp"
+        android:tooltipText="Input Example 'USD'" />
+
+    <TextView
+        android:id="@+id/days"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectC"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:text="Past Data Length"
+        android:textColor="@color/white" />
+
+    <EditText
+        android:id="@+id/selectDays"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/days"
+        android:background="@color/white"
+        android:hint="Example : 30"
+        android:inputType="number"
+        android:padding="10dp" />
+
+</RelativeLayout>

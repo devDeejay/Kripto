@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#313c47</color>
+    <color name="colorPrimaryDark">#313c47</color>
+    <color name="colorAccent">#ffaf01</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="customGreen">#428079</color>
+    <color name="chart_purple">#7747a7</color>
+    <color name="chart_blue">#4972c7</color>
+    <color name="gradient_blue">#0081dd</color>
+    <color name="gradient_green">#00ffd6</color>
+    <color name="facebook_blue">#3b5998</color>
+    <color name="google_orange">#dd4b39</color>
+    <color name="gradient_red">#ff4c2b</color>
+    <color name="gradient_yellow">#ffaf01</color>
+    <color name="transparent_black">#77000000</color>
+</resources>
